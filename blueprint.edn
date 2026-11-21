@@ -1,0 +1,7 @@
+{:itonami.blueprint/id "game-play-uploader"
+ :itonami.blueprint/name "game-play-uploader — gameplay-recording campaign surface"
+ ;; One classification key (itonami-lib blueprint.edn schema), chosen from
+ ;; README.md for the registry catalog (JUN-1439): isic-rev5 7499, checked against
+ ;; the ISIC Rev.5 structure table in cloud-itonami/app-itonami-org-un-isic.
+ :itonami.blueprint/isic-rev5 "7499"
+ :itonami.blueprint/domain :games/gameplay-recording-campaign}
